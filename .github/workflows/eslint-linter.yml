@@ -23,4 +23,4 @@ jobs:
         run: npm install
 
       - name: Run ESLint
-        run: npx eslint . --ext .ts,.vue,.js  # Lint all TypeScript, Vue, and JS files
+        run: npm run lint
