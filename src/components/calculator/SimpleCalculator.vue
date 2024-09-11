@@ -8,7 +8,7 @@ import { evaluate } from 'mathjs'
 const displayValue = ref('')
 
 const handleCalculatorButtonClick = (value: string) => {
-  if (displayValue.value === 'Error') {
+  if (displayValue.value === 'Error' && value !== '=') {
     displayValue.value = ''
   }
   if (value === 'AC') {
