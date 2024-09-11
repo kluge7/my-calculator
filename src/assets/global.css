@@ -4,7 +4,6 @@ body {
   padding: 0;
   height: 100%;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 * {
@@ -13,3 +12,4 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
+
