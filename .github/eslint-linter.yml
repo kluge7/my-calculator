@@ -1,0 +1,26 @@
+name: Run ESLint Linter
+
+on:
+  workflow_run:
+    workflows: ["Run Prettier Formatting"]
+    types:
+      - completed
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run ESLint
+        run: npx eslint . --ext .ts,.vue,.js  # Lint all TypeScript, Vue, and JS files

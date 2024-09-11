@@ -1,0 +1,28 @@
+name: Run Prettier Formatting
+
+on: 
+  push:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      # Install Prettier
+      - name: Install dependencies
+        run: npm install
+
+      # Run Prettier on Vue.js files
+      - name: Run Prettier
+        run: npx prettier --write "**/*.vue"
+
+      # Commit any changes made by Prettier
+      - uses: EndBug/add-and-commit@v4
+        with:
+          author_name: Prettier Robot
+          author_email: robot@example.com
+          message: 'Committing Prettier-format changes'
+        env:
+          GITHUB_TOKEN: ${{ secrets.API_KEY }}
