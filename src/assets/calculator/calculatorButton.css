@@ -4,32 +4,34 @@
   margin: 5px;
   font-size: 1.5rem;
   border: none;
-  background-color: #4a90e2; 
-  color: white; 
-  border-radius: 8px; 
+  background-color: #4a90e2;
+  color: white;
+  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s ease-in-out;
+  transition:
+    background-color 0.3s,
+    transform 0.2s ease-in-out;
 }
 
 .calculator-button:hover {
-  background-color: #357ABD; 
-  transform: scale(1.05); 
+  background-color: #357abd;
+  transform: scale(1.05);
 }
 
 .calculator-button:active {
-  background-color: #2e6da4; 
-  transform: scale(0.95); 
+  background-color: #2e6da4;
+  transform: scale(0.95);
 }
 
 .calculator-button.operator {
-  background-color: #f5a623; 
+  background-color: #f5a623;
   color: white;
 }
 
 .calculator-button.operator:hover {
-  background-color: #f39c12; 
+  background-color: #f39c12;
 }
 
 .calculator-button.operator:active {
-  background-color: #e67e22; 
+  background-color: #e67e22;
 }
