@@ -22,7 +22,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: rgba(0, 0, 0, 0.3); /* Slightly transparent background */
+  background-color: rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   border: 1px solid rgba(255, 255, 255, 0.3);

@@ -1,12 +1,12 @@
 .calculator-display {
   font-size: 2em;
   padding: 15px 20px;
-  background-color: #ffffff; /* White background for the display */
-  color: #333333; /* Darker text for better contrast */
+  background-color: #ffffff;
+  color: #333333; 
   text-align: right;
-  border: 2px solid #4a90e2; /* Blue border to match calculator border */
+  border: 2px solid #4a90e2; 
   margin-bottom: 20px;
-  border-radius: 8px; /* Softer rounded corners for the display */
+  border-radius: 8px; 
   min-height: 2em;
   height: 2em;
   box-sizing: border-box;
