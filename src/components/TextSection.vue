@@ -2,9 +2,7 @@
   <div class="text-section">
     <h1>About Me</h1>
     <p>
-      I am a passionate software developer with a keen interest in algorithms and problem-solving.
-      In my free time, I engage in various programming projects like this calculator app and enjoy
-      contributing to open-source projects.
+      TEST
     </p>
   </div>
 </template>
