@@ -3,6 +3,7 @@ import '@assets/calculator/simplecalculator.css'
 import { ref } from 'vue'
 import CalculatorDisplay from './CalculatorDisplay.vue'
 import CalculatorButtons from './CalculatorButtons.vue'
+import { evaluate } from 'mathjs'
 
 const displayValue = ref('')
 
@@ -20,7 +21,7 @@ const handleCalculatorButtonClick = (value: string) => {
     displayValue.value = String(parseFloat(displayValue.value) / 100)
   } else if (value === '=') {
     try {
-      displayValue.value = eval(displayValue.value)
+      displayValue.value = evaluate(displayValue.value)
     } catch (error) {
       displayValue.value = 'Error'
     }
