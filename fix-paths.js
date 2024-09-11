@@ -1,15 +1,15 @@
-import { readFile, writeFile } from 'fs/promises';
-import path from 'path';
+import { readFile, writeFile } from 'fs/promises'
+import path from 'path'
 
-const filePath = path.join(process.cwd(), 'dist/index.html');
+const filePath = path.join(process.cwd(), 'dist/index.html')
 
 try {
-  const data = await readFile(filePath, 'utf8');
+  const data = await readFile(filePath, 'utf8')
 
-  const result = data.replace(/\/assets\//g, './assets/');
+  const result = data.replace(/\/assets\//g, './assets/')
 
-  await writeFile(filePath, result, 'utf8');
-  console.log('Successfully updated index.html paths!');
+  await writeFile(filePath, result, 'utf8')
+  console.log('Successfully updated index.html paths!')
 } catch (err) {
-  console.error('Error processing index.html:', err);
+  console.error('Error processing index.html:', err)
 }
