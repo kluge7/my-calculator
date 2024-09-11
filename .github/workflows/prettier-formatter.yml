@@ -26,4 +26,4 @@ jobs:
           author_email: prettier-bot@example.com
           message: 'Committing Prettier changes'
         env:
-          GITHUB_TOKEN: ${{ secrets.API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
