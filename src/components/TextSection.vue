@@ -1,9 +1,7 @@
 <template>
   <div class="text-section">
     <h1>About Me</h1>
-    <p>
-      TEST
-    </p>
+    <p>TEST</p>
   </div>
 </template>
 
