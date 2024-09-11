@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Calculator from './components/calculator/Calculator.vue'
+import SimpleCalculator from './components/calculator/SimpleCalculator.vue'
 </script>
 
 <template>
@@ -17,7 +17,7 @@ import Calculator from './components/calculator/Calculator.vue'
 
       <!-- Right Section with Calculator -->
       <div class="calculator-section">
-        <Calculator />
+        <SimpleCalculator />
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import '@assets/calculator/calculator.css'
+import '@assets/calculator/simplecalculator.css'
 import { ref } from 'vue'
 import CalculatorDisplay from './CalculatorDisplay.vue'
 import CalculatorButtons from './CalculatorButtons.vue'

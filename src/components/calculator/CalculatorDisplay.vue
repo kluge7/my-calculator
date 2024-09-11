@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import '@assets/calculator/calculatorDisplay.css'
 
-const props = defineProps({
+defineProps({
   value: {
     type: String,
     required: true
