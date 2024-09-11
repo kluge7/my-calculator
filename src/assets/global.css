@@ -1,0 +1,17 @@
+/* global.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden; 
+  }
+  
+  * {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
