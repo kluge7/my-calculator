@@ -6,7 +6,7 @@
     <div class="footer-section">
       <p>Powered by Vue.js</p>
       <p>
-        Source Code: 
+        Source Code:
         <a href="https://github.com/kluge7/my-calculator" target="_blank">
           https://github.com/kluge7/my-calculator
         </a>
