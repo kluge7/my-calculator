@@ -8,6 +8,9 @@
       multiplication, and division. It also supports percentage calculations and negative number
       operations.
     </p>
+    <p>
+      <strong>My Calculator is fully optimized for mobile devices and can be seamlessly used on your phone.</strong>
+    </p>
   </div>
 </template>
 
