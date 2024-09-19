@@ -13,9 +13,9 @@
 }
 
 .text-section h1 {
-  font-size: 2.5rem; 
+  font-size: 2.5rem;
   margin-bottom: 20px;
-  text-align: center; 
+  text-align: center;
 }
 
 /* Media query for mobile screens */
@@ -27,8 +27,8 @@
   .text-section h1 {
     font-size: 1.8rem;
   }
-  
+
   .text-section p {
-    font-size: 1rem; 
+    font-size: 1rem;
   }
 }

@@ -13,19 +13,19 @@
   white-space: nowrap;
   line-height: 1;
   overflow-x: auto;
-  overflow-y: hidden; 
-  max-width: 100%; 
+  overflow-y: hidden;
+  max-width: 100%;
 }
 
 .calculator-display::-webkit-scrollbar {
-  height: 6px; 
+  height: 6px;
 }
 
 .calculator-display::-webkit-scrollbar-thumb {
-  background-color: #888; 
+  background-color: #888;
   border-radius: 10px;
 }
 
 .calculator-display::-webkit-scrollbar-thumb:hover {
-  background-color: #555; 
+  background-color: #555;
 }

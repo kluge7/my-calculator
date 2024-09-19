@@ -1,5 +1,5 @@
 .calculator-button {
-  width: 100%; 
+  width: 100%;
   padding: 20px;
   font-size: 1.5rem;
   background-color: #4a90e2;
@@ -7,8 +7,10 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s ease-in-out;
-  height: 100%; 
+  transition:
+    background-color 0.3s,
+    transform 0.2s ease-in-out;
+  height: 100%;
 }
 
 .calculator-button:hover {
