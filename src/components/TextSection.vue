@@ -2,10 +2,7 @@
   <div class="text-section">
     <h1>My Calculator</h1>
     <p>
-      In the course IDATT2105 - Full-Stack Application Development, we developed a variety of
-      calculator applications as part of our practical assignments. This project serves as a
-      demonstration of a Vue-based application and is intended to showcase the skills and concepts
-      learned during the course.
+      This project showcases a Vue.js-based calculator application, highlighting both the framework’s powerful capabilities and my expertise in web development. The calculator is designed to perform basic arithmetic operations, including addition, subtraction, multiplication, and division. It also supports percentage calculations and negative number operations.
     </p>
   </div>
 </template>

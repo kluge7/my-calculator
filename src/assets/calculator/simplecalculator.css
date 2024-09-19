@@ -1,9 +1,17 @@
 .calculator {
-  max-width: 400px;
+  width: 450px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f0f4f8;
   border: 2px solid #4a90e2;
   border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .calculator {
+    width: 100%; 
+  }
 }
