@@ -9,7 +9,10 @@
       operations.
     </p>
     <p>
-      <strong>My Calculator is fully optimized for mobile devices and can be seamlessly used on your phone.</strong>
+      <strong
+        >My Calculator is fully optimized for mobile devices and can be seamlessly used on your
+        phone.</strong
+      >
     </p>
   </div>
 </template>

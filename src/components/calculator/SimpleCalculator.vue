@@ -8,7 +8,12 @@ import { evaluate } from 'mathjs'
 const displayValue = ref('')
 
 const handleCalculatorButtonClick = (value: string) => {
-  if (((displayValue.value === 'Error') || (parseFloat(displayValue.value) === Infinity) || isNaN(parseFloat(displayValue.value)))  && value !== '=') {
+  if (
+    (displayValue.value === 'Error' ||
+      parseFloat(displayValue.value) === Infinity ||
+      isNaN(parseFloat(displayValue.value))) &&
+    value !== '='
+  ) {
     displayValue.value = ''
   }
   if (value === 'AC') {
