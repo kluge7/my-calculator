@@ -10,23 +10,5 @@
   </div>
 </template>
 
-<style scoped>
-.text-section {
-  width: 400px;
-  padding: 20px;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
+<style src="@/assets/textSection.css"></style>
 
-.text-section h1 {
-  font-size: 2.5rem;
-  margin-bottom: 20px;
-}
-
-.text-section p {
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-</style>

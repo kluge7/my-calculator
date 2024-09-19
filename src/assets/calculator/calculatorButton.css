@@ -1,28 +1,30 @@
+/* General styling for all buttons */
 .calculator-button {
-  width: 100%;
+  width: 100%; /* Make sure buttons take up the full width of the grid cell */
   padding: 20px;
-  margin: 5px;
   font-size: 1.5rem;
-  border: none;
   background-color: #4a90e2;
   color: white;
+  border: none;
   border-radius: 8px;
   cursor: pointer;
-  transition:
-    background-color 0.3s,
-    transform 0.2s ease-in-out;
+  transition: background-color 0.3s, transform 0.2s ease-in-out;
+  height: 100%; /* Ensure buttons take up the full height of their grid cell */
 }
 
+/* Hover effect for buttons */
 .calculator-button:hover {
   background-color: #357abd;
   transform: scale(1.05);
 }
 
+/* Active state when button is pressed */
 .calculator-button:active {
   background-color: #2e6da4;
   transform: scale(0.95);
 }
 
+/* Special styling for operator buttons */
 .calculator-button.operator {
   background-color: #f5a623;
   color: white;

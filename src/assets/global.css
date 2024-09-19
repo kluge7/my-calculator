@@ -4,6 +4,9 @@ body {
   padding: 0;
   height: 100%;
   box-sizing: border-box;
+  background: linear-gradient(45deg, #ff6ec4, #7873f5, #59c1e7, #ff6ec4);
+  background-size: 300% 300%;
+  animation: gradientBackground 10s ease infinite;
 }
 
 * {
@@ -11,4 +14,14 @@ body {
   padding: 0;
   margin: 0;
   font-family: Arial, sans-serif;
+}
+
+@keyframes gradientBackground {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
 }

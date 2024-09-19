@@ -11,4 +11,6 @@ import SimpleCalculator from './components/calculator/SimpleCalculator.vue'
   </LayoutWrapper>
 </template>
 
-<style src="@assets/global.css"></style>
+<style src="@assets/global.css">
+
+</style>
